@@ -8,4 +8,10 @@ function checkButton(id) {
   else if (whichButton === "subtraction") {
     document.getElementById("result").value = input1 - input2;
   }
+  else if (whichButton === "division") {
+  	document.getElementById("result").value = input1 / input2;
+  }
+  else if (whichButton === "multiply") {
+  	document.getElementById("result").value = input1 * input2;
+  }
 };
